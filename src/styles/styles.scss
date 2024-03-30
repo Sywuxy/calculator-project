@@ -1,0 +1,18 @@
+@import 'fonts';
+@import './utils/variables';
+@import './utils/mixins';
+@import 'calc';
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+
+  background-color: $body-bg;
+  color: $text-color;
+  min-width: 320px;
+}
